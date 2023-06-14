@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a399b2 !important;
+    background-image: linear-gradient(45deg, #a399b2 0%, #4d4855 75%) !important;
+}
+
+.container {
+    color: rgb(0, 0, 0) !important;
+    background: rgba(255, 255, 255, 0.20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.5rem;
+    margin: 2.5rem;
+}
+
+.card {
+    width: calc(50% - 15px);
+    color: rgb(0, 0, 0) !important;
+    box-shadow: 10px 10px 10px black;
+}
+
+.img-fluid {
+    height:100% !important;
+    object-fit:cover;
+}
